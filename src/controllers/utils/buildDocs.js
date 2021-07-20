@@ -82,7 +82,7 @@ export const findWordsWithMatch = async ({
       updatedOn: 1,
       accented: 1,
       pronunciation: 1,
-      isCentralIgbo: 1,
+      isStandardIgbo: 1,
       ...(examples ? { examples: 1 } : {}),
       ...(dialects ? { dialects: 1 } : {}),
     })

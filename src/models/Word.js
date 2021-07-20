@@ -28,7 +28,7 @@ const wordSchema = new Schema({
     },
   },
   pronunciation: { type: String, default: '' },
-  isCentralIgbo: { type: Boolean, default: false },
+  isStandardIgbo: { type: Boolean, default: false },
   variations: { type: [{ type: String }], default: [] },
   frequency: { type: Number },
   stems: { type: [{ type: String }], default: [] },
